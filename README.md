@@ -9,4 +9,6 @@ htmlcss-responsive-layout
 
 4. aggiunto media query per bonus
 
+5. finito ma non sono sicuro di aver fatto giusto
+
 
