@@ -44,3 +44,51 @@
       margin-right: 10px;
     }
   }
+
+/* Modalità Desktop (sopra i 992px) */
+@media (min-width: 992px) {
+    /* Grandezza del titolo della ricetta aumenta ancora di più */
+    .recipe-title {
+      font-size: 30px;
+    }
+    
+    /* Informazioni della ricetta tornano a disporsi una sotto l'altra */
+    .recipe-info-grid {
+      display: block;
+    }
+    
+    /* Video e altre informazioni della ricetta si dispongono uno accanto all'altro */
+    .recipe-video {
+      float: left;
+      width: 50%;
+    }
+    .recipe-info {
+      float: right;
+      width: 50%;
+    }
+    
+    /* Compaiono i nomi delle piattaforme social */
+    .social-buttons .social-name {
+      display: block;
+    }
+    
+    /* Nel footer i dati del sito e il menu di navigazione si dispongono sulla stessa linea ma su lati opposti */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  /* Bonus: Modalità Large Mobile (576px) */
+@media (min-width: 576px) {
+    /* Immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente */
+    .recipe-description img {
+      float: left;
+      margin-right: 10px;
+    }
+    
+    /* Bottoni social si allargano già su dispositivi mobile più grandetti */
+    .social-buttons {
+      width: 100%;
+    }
+  }

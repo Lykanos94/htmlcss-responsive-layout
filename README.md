@@ -5,6 +5,8 @@ htmlcss-responsive-layout
 
 2. aggiunto media query per modalità tablet
 
-3.
+3. aggiunto media query per modalità desktop
+
+4. aggiunto media query per bonus
 
 
